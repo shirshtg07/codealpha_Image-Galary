@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<section class="gallery-section">
+
+    <h1>Image Gallery</h1>
+
+    <p>Responsive Image Gallery with Filters & Lightbox</p>
+
+    <div class="filter-buttons">
+
+        <button class="active" data-filter="all">All</button>
+
+        <button data-filter="nature">Nature</button>
+
+        <button data-filter="cars">Cars</button>
+
+        <button data-filter="technology">Technology</button>
+
+        <button data-filter="animals">Animals</button>
+
+    </div>
+
+    <div class="gallery">
+
+        <div class="image nature">
+            <img src="https://picsum.photos/id/1015/600/400" alt="">
+        </div>
+
+        <div class="image nature">
+            <img src="https://picsum.photos/id/1016/600/400" alt="">
+        </div>
+
+        <div class="image nature">
+            <img src="https://picsum.photos/id/1025/600/400" alt="">
+        </div>
+
+        <div class="image cars">
+            <img src="https://picsum.photos/id/1074/600/400" alt="">
+        </div>
+
+        <div class="image cars">
+            <img src="https://picsum.photos/id/1071/600/400" alt="">
+        </div>
+
+        <div class="image cars">
+            <img src="https://picsum.photos/id/1069/600/400" alt="">
+        </div>
+
+        <div class="image technology">
+            <img src="https://picsum.photos/id/180/600/400" alt="">
+        </div>
+
+        <div class="image technology">
+            <img src="https://picsum.photos/id/250/600/400" alt="">
+        </div>
+
+        <div class="image technology">
+            <img src="https://picsum.photos/id/201/600/400" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="https://picsum.photos/id/237/600/400" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="https://picsum.photos/id/433/600/400" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="https://picsum.photos/id/593/600/400" alt="">
+        </div>
+
+    </div>
+
+
+<div class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img class="lightbox-img">
+
+    <button class="next">&#10095;</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
